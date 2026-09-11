@@ -1,0 +1,6 @@
+streamlit[pdf]==1.63.0
+plotly==7.0.0
+pandas==2.3.3
+openpyxl==3.1.5
+reportlab==4.5.1
+kaleido==1.4.0

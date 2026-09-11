@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE / Editor
+.idea/
+.vscode/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Generated invoice PDFs
+reports/*.pdf
+reports/invoice_history/
+
+# Generated application files
+invoices/
+
+# Temporary / OS files
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
