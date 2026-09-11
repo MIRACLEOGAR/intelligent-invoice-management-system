@@ -78,25 +78,27 @@ Explore the structured business data used by the application.
 
 ## 🔄 Invoice & Payment Workflow
 
+```text
 Customer Selection
-↓
+        ↓
 Invoice Builder
-↓
+        ↓
 Invoice Generation
-↓
+        ↓
 PDF Invoice Creation
-↓
+        ↓
 Payment Recording
-↓
+        ↓
 Balance & Status Update
-↓
+        ↓
 Invoice PDF Refresh
-↓
+        ↓
 Historical Version Archived
-↓
+        ↓
 Search / Preview / Download
-↓
+        ↓
 Dashboard Analytics
+```
 
 ## 🛠️ Technical Implementation
 
@@ -141,6 +143,7 @@ The system is designed to help small and growing businesses:
 
 ## 📁 Project Structure
 
+```text
 Intelligent Invoice Management System/
 │
 ├── README.md
@@ -182,16 +185,21 @@ Intelligent Invoice Management System/
     ├── processor.py
     ├── search_engine.py
     └── __init__.py
+```
 
 ## 🚀 How to Run
 
 Install the required dependencies:
 
+```bash
 pip install -r requirements.txt
+```
 
 Run the Streamlit application:
 
+```bash
 streamlit run src/app.py
+```
 
 The application will open in your default web browser.
 
@@ -211,12 +219,9 @@ GitHub: [@miracleogar](https://github.com/miracleogar)
 
 ## 🎯 Project Focus
 
-**Domain:** Business Applications / Invoicing & Financial Operations
-
-**Project Type:** Python Application / Business Intelligence
-
-**Primary Tools:** Python, Streamlit, Pandas, Plotly, ReportLab, Excel
-
+**Domain:** Business Applications / Invoicing & Financial Operations  
+**Project Type:** Python Application / Business Intelligence  
+**Primary Tools:** Python, Streamlit, Pandas, Plotly, ReportLab, Excel  
 **Key Areas:** Invoicing, Customer Management, Payments, Receivables, Reporting & Analytics
 
 ---
